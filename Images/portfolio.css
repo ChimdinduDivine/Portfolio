@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+scroll-behavior: smooth;
+margin: 0;
+padding: 0;
+}
+.port{
+    border-radius: 300px;
+}
+.text{
+    padding-right: 400px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+.navigationLinks{
+    transition: all ,0.1s;
+}
+.navigationLinks:hover{
+    color: red;
+    text-decoration: underline;
+}
+.primaryButton{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px ;
+    border-radius: 5px;
+}
+.primaryButton a{
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    /* nav bar ended here */
+}
+.content{
+    /* hero bar started here */
+    color: blue;
+}
+.milk{
+    font-size: 30px;
+}
+.boy2{
+font-size: 25px;
+}
+.boy3{
+ position: left;
+}
+#Home{
+    padding: 100px;
+    line-height: 40px;
+    padding-left:60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.button1{
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.button2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#play{
+    display: flex;
+    flex-direction: row;
+    font-family:sans-serif;
+    font-size: larger;
+}
+.h1{
+    padding-bottom: 20px;
+}
+.img{
+padding-bottom: 200px;
+}
+.tea{
+    width: 50%;
+}
+.Services{
+    font-size: 70px;
+    text-align: center;
+}
+.cards{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,  1fr);
+    gap: 1rem;
+}
+.cards .card{
+    height: 400px;
+    width: 300px;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.Buttons{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.naruto{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+.class{
+    text-align: center;
+    font-size: 30px;
+}
+.Sasuke{
+    border-radius: 10px;
+    background-color: aqua;
+}
+.Buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+#val{
+border: 2px solid gray;
+background-color: gray;
+}
+.dry{
+    margin-bottom: 20px ;
+padding: 10px;
+    font-size: 40px;
+    color:blue;
+    padding-top: 20px;
+}
+.choice{
+    padding: 10px;
+    font-size: 40px;
+    color: darkblue; 
+}
+.neon{
+   text-align: center;
+   padding:30px;
+}
+.neon p{
+    color: whitesmoke;
+    font-size: 35px;
+    padding: 40px;
+    padding-top: 30px;
+}
+.hafa{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: darkblue;  
+}
+.wet{
+    padding-bottom: 30px;
+}
