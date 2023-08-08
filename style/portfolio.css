@@ -8,7 +8,7 @@ padding: 0;
     border-radius: 300px;
 }
 .text{
-    padding-right: 400px;
+    padding-right: 700px;
 }
 .container{
     display: flex;
@@ -26,7 +26,6 @@ padding: 0;
 }
 .primaryButton{
     background-color: red;
-    color: white;
     border: none;
     padding: 10px ;
     border-radius: 5px;
