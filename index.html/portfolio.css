@@ -3,6 +3,7 @@
 scroll-behavior: smooth;
 margin: 0;
 padding: 0;
+overflow-x: hidden;
 }
 .port{
     border-radius: 300px;
@@ -15,6 +16,7 @@ padding: 0;
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    
 
 }
 .navigationLinks{
@@ -115,6 +117,9 @@ padding-bottom: 200px;
     gap: 1rem;
     
 }
+.holy{
+    flex-direction: column;
+}
 .naruto{
     background-color: aqua;
     padding: 10px;
@@ -167,4 +172,9 @@ padding: 10px;
 }
 .wet{
     padding-bottom: 30px;
+}
+@media screen and (max-width:968px){
+    #container{
+        flex-direction: row;
+    }
 }
